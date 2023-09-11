@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/s/561f7Bv5uxJdAyauRXlTG0VkU3HTc1TW+Z3hUeowWdW22/7qefknROLgOeruN49mX/eZtkL3LFHBKiZh5bw==",
+  "dgSpecHash": "zR6WKxLc9phpB/3w4bpuWlj77XeKqG0XUAm5dgx9c66QZU0vF8uKKD/zO6lFZU2svEq73qrPu2ofB0Q86qhVPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\zahi.chemaly\\source\\repos\\WebApp\\WebApp\\WebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\dotnet.reproduciblebuilds\\1.1.1\\dotnet.reproduciblebuilds.1.1.1.nupkg.sha512",
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\microsoft.sourcelink.azurerepos.git\\1.1.1\\microsoft.sourcelink.azurerepos.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\microsoft.sourcelink.bitbucket.git\\1.1.1\\microsoft.sourcelink.bitbucket.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.1\\microsoft.sourcelink.common.1.1.1.nupkg.sha512",
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\microsoft.sourcelink.github\\1.1.1\\microsoft.sourcelink.github.1.1.1.nupkg.sha512",
+    "C:\\Users\\zahi.chemaly\\.nuget\\packages\\microsoft.sourcelink.gitlab\\1.1.1\\microsoft.sourcelink.gitlab.1.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

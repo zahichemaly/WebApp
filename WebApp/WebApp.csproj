@@ -5,12 +5,24 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <IsPackable>true</IsPackable>
-    <Description>Simple WebApp.</Description>
+    <EnablePackageValidation>true</EnablePackageValidation>
     <Authors>Zahi Chemaly</Authors>
-    <Company />
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
+    <Description>A long description to explain the package</Description>
     <PackageProjectUrl>https://github.com/zahichemaly/WebApp</PackageProjectUrl>
+    <PackageTags>sample, library</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+    <None Include="README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
 
 </Project>
