@@ -11,7 +11,7 @@
     <PackageProjectUrl>https://github.com/zahichemaly/WebApp</PackageProjectUrl>
     <PackageTags>sample, library</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
@@ -24,6 +24,7 @@
     </PackageReference>
     <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
     <None Include="README.md" Pack="true" PackagePath=""/>
+    <None Include="icon.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 
