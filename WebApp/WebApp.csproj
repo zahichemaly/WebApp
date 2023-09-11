@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <IsPackable>true</IsPackable>
+    <Description>Simple WebApp.</Description>
+    <Authors>Zahi Chemaly</Authors>
+    <Company />
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/zahichemaly/WebApp</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
